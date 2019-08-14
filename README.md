@@ -15,6 +15,7 @@ USE
 - Babel
 - Styl
 - HtmlWebpackPlugin
+- Axios
 
 
 Project installation
@@ -29,5 +30,5 @@ npm install
 Run the server
 -
 ```
-npm run build_vue
+npm run dev
 ```

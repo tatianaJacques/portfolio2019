@@ -1,13 +1,13 @@
 <template>
   <div>
-    {{ text }}
+    {{ nom }}
   </div>
 </template>
 
 <script>
 	export default {
 		name: "work",
-		props: ['text', 'key'],
+		props: ['nom', 'idwork'],
 	}
 </script>
 

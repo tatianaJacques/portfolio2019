@@ -1,6 +1,6 @@
 <template>
   <div class="works">
-    <Work v-for="item in works" v-bind:text="item.text"  v-bind:key="item.id"></Work>
+    <Work v-for="work in works" v-bind:key="work.id" v-bind:nom="work.nom"></Work>
   </div>
 </template>
 

@@ -1,0 +1,90 @@
+{
+  "menu" : ["home","2016","2015","about"],
+  "home": {
+    "title": "Tatiana Jacques",
+    "subtitle": "Développeuse front-end",
+    "img": "img/data/profil.jpg",
+    "back01": "img/skin/back-01.png",
+    "contrat": "Voir mon CV"
+  },
+  "projets" : [
+
+    {
+      "nom": "Festival de Cannes",
+      "date": "2016",
+      "lieu": "Paris",
+      "ecole": "OHWEE #Alternance",
+      "keys": ["html", "css", "gulp", "ajax", "jquery"],
+      "image": "img/skin/fdc.png",
+      "id":"fdc",
+      "popin":"popin-fdc.html"
+    },
+    {
+      "nom": "Room saveur",
+      "date": "2016",
+      "lieu": "Paris",
+      "ecole": "HETIC #ecole",
+      "keys": ["html", "css", "gulp", "jquery"],
+      "image": "img/skin/roomsaveur.png",
+      "id":"rs",
+      "popin":"popin-rs.html"
+    },
+    {
+      "nom": "Wall Of Music",
+      "date": "2015",
+      "lieu": "Paris",
+      "ecole": "HETIC #ecole",
+      "keys": ["html", "css", "gulp", "ajax", "jquery"],
+      "image": "img/skin/wallmusic.jpg",
+      "id":"wom",
+      "popin":"popin-wom.html"
+    },
+    {
+      "nom": "Wiferun",
+      "date": "2015",
+      "lieu": "Paris",
+      "ecole": "HETIC #ecole",
+      "keys": ["html", "css", "quintus"],
+      "image": "img/skin/wiferun.png",
+      "id":"wr",
+      "popin":"popin-wr.html"
+    },
+    {
+      "nom": "Selty",
+      "date": "2015",
+      "lieu": "Paris",
+      "ecole": "DUT MMI #ecole",
+      "keys": ["html", "css", "angularJS", "Ionic"],
+      "image": "img/skin/selty.png",
+      "id":"selty",
+      "popin":"popin-selty.html"
+    }
+  ],
+  "About": [
+    {
+      "nom": "linkedin",
+      "url": "//fr.linkedin.com/in/tatiana-jacques",
+      "icon": "linkedin"
+    },
+    {
+      "nom": "twitter",
+      "url": "//twitter.com/TatJacques",
+      "icon": "twitter"
+    },
+    {
+      "nom": "github",
+      "url": "//github.com/tatianaJacques",
+      "icon": "github"
+    },
+    {
+      "nom": "codepen",
+      "url": "//codepen.io/tatianaJacques/",
+      "icon": "codepen"
+    },
+    {
+      "nom": "mail",
+      "url": "mailto:tat.jacques@gmail.com",
+      "icon": "email"
+    }
+  ]
+}
