@@ -1,6 +1,7 @@
 <template>
   <div class="full-width center-content">
     <Header name="Tatiana JACQUES" job="Developpeur front-end" />
+    <Wdywtk />
     <Works v-bind:works="worksData"/>
   </div>
 </template>
@@ -9,6 +10,7 @@
 	import axios from "axios"
 	import Header from './components/Header.vue'
 	import Works from './components/Works.vue'
+	import Wdywtk from './components/Wdywtk.vue'
 
 	var data = {
 		worksData: []
@@ -29,7 +31,8 @@
 		},
 		components: {
 			Header,
-			Works
+			Works,
+			Wdywtk
 		}
 	}
 </script>
