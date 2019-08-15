@@ -1,8 +1,11 @@
 <template>
   <div class="full-width center-content">
-    <Header name="Tatiana JACQUES" job="Developpeur front-end" />
+    <Header name="Tatiana JACQUES" job="Front-end" />
+    <!--
     <Wdywtk />
     <Works v-bind:works="worksData"/>
+    -->
+    <Waiting></Waiting>
   </div>
 </template>
 
@@ -11,6 +14,7 @@
 	import Header from './components/Header.vue'
 	import Works from './components/Works.vue'
 	import Wdywtk from './components/Wdywtk.vue'
+	import Waiting from './components/Waiting.vue'
 
 	var data = {
 		worksData: []
@@ -32,7 +36,8 @@
 		components: {
 			Header,
 			Works,
-			Wdywtk
+			Wdywtk,
+			Waiting
 		}
 	}
 </script>
